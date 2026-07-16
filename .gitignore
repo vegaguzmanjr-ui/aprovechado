@@ -1,0 +1,21 @@
+# dependencias
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# produccion
+/build
+
+# variables de entorno (¡NUNCA subir tus claves secretas!)
+.env
+.env.local
+.env*.local
+
+# logs y sistema
+npm-debug.log*
+.DS_Store
+*.pem
+/.vercel
+next-env.d.ts
